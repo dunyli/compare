@@ -135,7 +135,7 @@ void benchmark_sorting_algorithms(void) {
     printf("\n");
 
     /* Размеры массивов для тестирования */
-    int sizes[] = { 100, 500, 1000, 5000, 10000, 50000, 100000, 500000 };
+    int sizes[] = { 100, 500, 1000, 5000, 10000, 50000, 100000 };
     int num_sizes = sizeof(sizes) / sizeof(sizes[0]);
 
     printf("Размер\t\t Быстрая (мс)\t Вставками (мс)\t Ускорение\n");
